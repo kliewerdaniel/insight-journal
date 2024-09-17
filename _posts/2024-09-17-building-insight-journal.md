@@ -3,11 +3,7 @@ layout: home
 title:  "Building Insight Journal"
 date:   2024-09-17 12:40:44 -0500
 ---
-# Building a Journal App with AI-Powered Feedback (For Free!)
-
 ## Introduction
-
-Hey everyone! I wanted to take a moment to share the original vision I had for a project that I’ve been working on for months. In my earlier post, I think there was a bit of confusion, so let me clarify my goal more clearly this time around.
 
 My aim is to create a journaling platform that integrates a **locally hosted language model (LLM)** to provide feedback on written content. The idea is to replicate the kind of insightful commentary you might get from a diverse group of people — the kind of feedback I used to enjoy from platforms like Reddit. However, since Reddit’s environment has become less helpful (thanks to trolls), I wanted to build something more controlled.
 
@@ -199,7 +195,3 @@ Finally, deploy to Netlify:
 That’s it! You now have a fully functional journal that generates AI-powered feedback on your entries. This project has been a learning experience for me, and I hope this guide helps others build their own free, LLM-powered applications.
 
 If you run into any issues, don’t hesitate to use an LLM for troubleshooting — that’s what I do, and it’s been a game-changer.
-
-Let me know if this is helpful, and feel free to share your own projects!
-
-**TL;DR:** I built a journaling platform with AI-generated feedback using a local LLM and free hosting. Here's how you can do it too!
