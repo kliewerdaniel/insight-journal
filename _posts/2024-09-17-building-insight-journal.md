@@ -1,103 +1,205 @@
 ---
 layout: home
-title:  "Welcome to Jekyll!"
+title:  "Building Insight Journal"
 date:   2024-09-17 12:40:44 -0500
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+# Building a Journal App with AI-Powered Feedback (For Free!)
 
-Jekyll requires blog post files to be named according to the following format:
+## Introduction
 
-`YEAR-MONTH-DAY-title.MARKUP`
+Hey everyone! I wanted to take a moment to share the original vision I had for a project that I’ve been working on for months. In my earlier post, I think there was a bit of confusion, so let me clarify my goal more clearly this time around.
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+My aim is to create a journaling platform that integrates a **locally hosted language model (LLM)** to provide feedback on written content. The idea is to replicate the kind of insightful commentary you might get from a diverse group of people — the kind of feedback I used to enjoy from platforms like Reddit. However, since Reddit’s environment has become less helpful (thanks to trolls), I wanted to build something more controlled.
 
-Jekyll also offers powerful support for code snippets:
+What’s exciting about this project is that it’s completely free to host and deploy. Instead of relying on expensive services like OpenAI or Anthropic, I’m using a local instance of **Llama 3.1** for AI-generated comments. Hosting is done via **Netlify** using a static site generator like **Jekyll**, and I’ve even found ways to incorporate a database-like structure for free.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+I’ll share all the steps and tools I used to get this up and running, so if you’re a developer looking to build something similar — or just curious about how to integrate AI into your personal projects — this guide is for you!
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+## Why This Matters
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+The main goal is to re-create that collaborative, feedback-driven environment I used to enjoy, but in a more productive and controlled space. Traditionally, you’d have to rely on forums or social media, but now I can generate feedback from a variety of perspectives using personas in the LLM. Plus, everything is self-hosted and free, so no monthly bills!
 
-## Comments
+## The Tech Stack
 
-### Devil's Advocate
-A enthusiastic guide to getting started with Jekyll! As the Devil's Advocate, I'd like to present some counterarguments to challenge a few ideas:
+Here’s the tech stack I used to make this possible:
 
-1. **"You'll find this post in your `_posts` directory."**
+- **LLM:** Llama 3.1 (locally hosted)
+- **Static Site Generator:** Jekyll
+- **Hosting:** Netlify (free)
+- **AI Commenting System:** Ollama (for generating comments from the LLM)
+- **Version Control:** Git
+- **Database-like Functionality:** Netlify CMS (for managing posts)
 
-What if someone is completely new to Jekyll and doesn't know where the `_posts` directory is? A brief explanation of what Jekyll files are and how they're organized would be helpful.
+All of this runs without paying for hosting or expensive API calls, which is something I’m really proud of.
 
-2. **"Jekyll requires blog post files to be named according to the following format..."**
+## Challenges and Next Steps
 
-Why must it be this specific naming convention? Couldn't a more flexible or extensible system be used, allowing users to choose their own file names while still ensuring compatibility with Jekyll?
+I’m still learning as I go, and while I’ve made a lot of progress, there’s a ton left to do. The biggest bottleneck right now is the performance of my local machine when running the LLM for comment generation. I also want to improve the **personas** that the LLM uses to generate feedback, making them more detailed and customizable.
 
-3. **"...include the necessary front matter."**
+## How to Build Your Own Insight Journal
 
-What if someone forgets to include the front matter or does it incorrectly? A detailed explanation of what front matter is and how to use it would prevent confusion.
+Here’s a step-by-step guide on how you can build a similar app, completely free.
 
-4. **"Jekyll also offers powerful support for code snippets..."**
+### Prerequisites
 
-How do users actually implement this feature? Is it as simple as copy-pasting a code snippet into their Jekyll file? The guide assumes some basic knowledge of programming, which may not be the case for everyone.
+Before you start, make sure you have the following installed:
 
-5. **"Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll."**
+- **Ruby**:
+  ```bash
+  brew update
+  brew upgrade rbenv ruby-build
+  rbenv install 3.3.5 --force
+  rbenv global 3.3.5
+  sudo chown -R $(whoami) ~/.rbenv
+  ```
+- **Jekyll**
+- **Git**
+- **Ollama** (for AI-generated comments)
+- **Netlify CLI**:
+  ```bash
+  npm install netlify-cli -g
+  ```
 
-Isn't this just passing the buck? Shouldn't the guide provide a comprehensive overview of Jekyll's features and capabilities, rather than simply pointing users towards external resources?
+### Step 1: Initial Setup
 
-6. **"File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk]."**
+Start by creating a new Jekyll site and pushing it to Git:
 
-Why not provide a more direct way for users to get help or report issues? A dedicated support channel within the guide would be more convenient and user-friendly.
+```bash
+jekyll new insight-journal
+cd insight-journal
+git init
+git add .
+git commit -m "Initial commit"
+```
 
-By considering these counterarguments, we can improve the overall quality of the guide and make it more accessible and helpful to users.
+### Step 2: Configure for Netlify CMS
 
-### Critical Thinker
-A post about Jekyll, a static site generator. Let's dive in and analyze this text.
+Add **Netlify CMS** to your Jekyll site for easy content management.
 
-**Assumptions**
+1. Create an `admin` folder in your project root.
+2. Add a `config.yml` and an `index.html` file in the `admin` folder.
 
-Before we start, let me assume that the author of this post is familiar with Jekyll and its core concepts. The tone suggests that the reader is also already using Jekyll or planning to use it.
+Here’s an example of the `config.yml`:
 
-**Structure**
+```yaml
+backend:
+  name: git-gateway
+  branch: main
 
-The post is structured as a brief tutorial, starting with an introductory paragraph about how to edit the current post in the `_posts` directory. This is followed by a section on formatting blog posts, which explains the required file naming convention. The next part discusses code snippets, showcasing a Ruby example. Finally, there are links to external resources for further learning and getting help.
+media_folder: "assets/images"
+public_folder: "/assets/images"
 
-**Language**
+collections:
+  - name: "journal"
+    label: "Journal Entries"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Categories", name: "categories", widget: "list", required: false}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+```
 
-The language used is straightforward and easy to understand, assuming some basic knowledge of Jekyll. However, it's not particularly engaging or attention-grabbing. The tone is informative, with a hint of instructional style.
+The `index.html` file should look like this:
 
-**Analysis**
+```html
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Content Manager</title>
+  </head>
+  <body>
+    <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+  </body>
+</html>
+```
 
-From an analytical perspective, I'd say the post is well-structured and effectively conveys the necessary information for someone familiar with Jekyll to get up to speed on specific aspects of using the tool (e.g., file naming conventions, code snippets). However, the text assumes a certain level of prior knowledge about Jekyll, which might make it less accessible to newcomers.
+### Step 3: Customize Your Journal
 
-Some potential issues:
+You can add custom layouts and pages to make the journal your own:
 
-1. **Lack of context**: The post doesn't provide much background information or motivation for why someone would use Jekyll. This might leave readers without a clear understanding of the tool's benefits.
-2. **Assumed familiarity**: As mentioned earlier, the text assumes some prior knowledge about Jekyll, which might not be ideal for new users.
-3. **Limited depth**: The post only scratches the surface of what Jekyll offers. While it provides some useful information, it doesn't delve too deeply into more complex features or best practices.
+1. Create a `_layouts` folder and add a `post.html` layout for journal entries.
+2. Update the `index.md` file to display your entries.
 
-**Skepticism**
+### Step 4: Set Up AI-Generated Comments
 
-As a critical thinker, I'd question the following:
+This is where things get fun! We’ll use **Ollama** to generate AI-powered comments.
 
-1. Is this really an introductory post? It assumes some knowledge about Jekyll and doesn't provide much background on the tool.
-2. Are there any potential pitfalls or edge cases not mentioned in the post?
-3. How does this post align with the broader Jekyll documentation and community resources?
+1. Create `generate_comments.py` and `personas.py` in your project root.
 
-Overall, while the post is informative and provides some useful information, it's essential to consider these points when evaluating its effectiveness as an introductory resource for Jekyll.
+Here’s a simplified version of `generate_comments.py`:
 
-### Empathetic Listener
-I sense that this post is actually a guide for someone who is using Jekyll to build their website, but the tone feels more like a robotic tutorial rather than a personal message.
+```python
+import os
+import random
+import requests
+import frontmatter
+from personas import PERSONAS
 
-As an empathetic listener, I'd love to respond in a way that acknowledges your effort to communicate with me while also making it feel more human-like and less like a technical manual.
+def generate_comment(post_content, persona):
+    url = "http://localhost:11434/api/generate"
+    prompt = f"As a {persona['name']} ({persona['description']}), comment on this post:\n\n{post_content}"
+    data = {"model": "llama3.1", "prompt": prompt, "stream": False}
+    response = requests.post(url, json=data)
+    return response.json()["response"]
 
-"Hey there! I can tell you've put some thought into creating this guide for Jekyll users. That's really helpful of you! However, I have to admit, reading through it feels a bit dry - like I'm just following instructions without any emotional connection. Don't get me wrong, the information is super useful, but if you're willing, could you try telling me more about why this matters to you? What sparked your passion for Jekyll and building websites?"
+def generate_comments_for_post(post_content, num_comments=3):
+    selected_personas = random.sample(PERSONAS, num_comments)
+    return [{"persona": p['name'], "comment": generate_comment(post_content, p)} for p in selected_personas]
 
-This response aims to acknowledge your efforts while also inviting you to share a personal story or perspective that would make the guide feel more relatable and engaging.
+# Further functions for post selection and appending comments...
+```
+
+In `personas.py`, define the personas:
+
+```python
+PERSONAS = [
+    {"name": "Critical Thinker", "description": "Analytical and skeptical."},
+    {"name": "Empathetic Listener", "description": "Focuses on emotional aspects."},
+    {"name": "Devil's Advocate", "description": "Challenges ideas."},
+    {"name": "Optimistic Visionary", "description": "Sees potential in every situation."},
+    {"name": "Pragmatic Planner", "description": "Focuses on practical next steps."}
+]
+```
+
+Then, run:
+
+```bash
+python3 generate_comments.py
+```
+
+### Step 5: Writing and Commenting on Posts
+
+Write your posts as Markdown files in the `_posts` directory. To add AI-generated comments, run the Python script and select the post you want feedback on.
+
+### Step 6: Local Development and Preview
+
+To work locally:
+
+1. Run `bundle install` to install dependencies.
+2. Use `bundle exec jekyll serve` to preview your site.
+
+### Step 7: Deploy to Netlify
+
+Finally, deploy to Netlify:
+
+1. Push your repository to GitHub.
+2. Connect your GitHub repo to Netlify.
+3. Configure Netlify to use the `main` branch for deployment.
+4. Set up **Netlify Identity** for authentication.
+
+## Conclusion
+
+That’s it! You now have a fully functional journal that generates AI-powered feedback on your entries. This project has been a learning experience for me, and I hope this guide helps others build their own free, LLM-powered applications.
+
+If you run into any issues, don’t hesitate to use an LLM for troubleshooting — that’s what I do, and it’s been a game-changer.
+
+Let me know if this is helpful, and feel free to share your own projects!
+
+**TL;DR:** I built a journaling platform with AI-generated feedback using a local LLM and free hosting. Here's how you can do it too!
