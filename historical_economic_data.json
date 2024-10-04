@@ -1,0 +1,1046 @@
+[
+  {
+    "entity": "Silk Road Trade Network",
+    "wealth_transfer_type": "International Trade",
+    "wealth_amount": 10000000000, // in USD (estimated total trade value)
+    "time_period": "200 BCE - 1400 CE",
+    "source_sector": "Asian Producers",
+    "destination_sector": "European and Middle Eastern Markets",
+    "primary_commodity": "Silk, Spices, Precious Metals",
+    "transaction_frequency": 1000000, // number of transactions
+    "wealth_transfer_direction": "East to West",
+    "conflict_influence": 5, // scale 1-10
+    "military_expense_percentage": 5, // percentage of GDP
+    "cultural_exchange_intensity": 10, // scale 1-10
+    "political_leverage_gain": 7, // scale 1-10
+    "genetic_lineage_impact": 6, // scale 1-10
+    "inflation_rate_change": 2, // percentage change
+    "taxation_effect": 6, // scale 1-10
+    "resource_depletion_rate": 3, // scale 1-10
+    "technological_innovation_factor": 7, // scale 1-10
+    "trade_agreement_influence": 8, // scale 1-10
+    "debt_transfer_type": "Trade Credit",
+    "genetic_data_impact": 5, // scale 1-10
+    "economic_sanction_intensity": 2, // scale 1-10
+    "environmental_impact": 3, // scale 1-10
+    "population_migration_influence": 8, // scale 1-10
+    "regional_conflict_risk": 5, // scale 1-10
+    "global_power_shift": 6, // scale 1-10
+    "social_class_disparity": 6 // scale 1-10
+  },
+  {
+    "entity": "Industrial Revolution",
+    "wealth_transfer_type": "Technological Advancement",
+    "wealth_amount": 500000000000, // in USD (estimated economic growth)
+    "time_period": "1760 - 1840",
+    "source_sector": "Agrarian Economy",
+    "destination_sector": "Industrial Manufacturing",
+    "primary_commodity": "Textiles, Iron, Coal",
+    "transaction_frequency": 500000, // number of transactions
+    "wealth_transfer_direction": "Rural to Urban",
+    "conflict_influence": 4, // scale 1-10
+    "military_expense_percentage": 3, // percentage of GDP
+    "cultural_exchange_intensity": 7, // scale 1-10
+    "political_leverage_gain": 8, // scale 1-10
+    "genetic_lineage_impact": 5, // scale 1-10
+    "inflation_rate_change": 3, // percentage change
+    "taxation_effect": 7, // scale 1-10
+    "resource_depletion_rate": 8, // scale 1-10
+    "technological_innovation_factor": 10, // scale 1-10
+    "trade_agreement_influence": 6, // scale 1-10
+    "debt_transfer_type": "Industrial Investment",
+    "genetic_data_impact": 4, // scale 1-10
+    "economic_sanction_intensity": 2, // scale 1-10
+    "environmental_impact": 9, // scale 1-10
+    "population_migration_influence": 9, // scale 1-10
+    "regional_conflict_risk": 4, // scale 1-10
+    "global_power_shift": 7, // scale 1-10
+    "social_class_disparity": 8 // scale 1-10
+  },
+  {
+    "entity": "Great Depression",
+    "wealth_transfer_type": "Economic Collapse",
+    "wealth_amount": -1000000000000, // in USD (estimated loss)
+    "time_period": "1929 - 1939",
+    "source_sector": "Investors, Businesses",
+    "destination_sector": "Asset Devaluation",
+    "primary_commodity": "Stocks, Capital",
+    "transaction_frequency": 2000000, // number of failed transactions
+    "wealth_transfer_direction": "Wealth Destruction",
+    "conflict_influence": 7, // scale 1-10
+    "military_expense_percentage": 2, // percentage of GDP
+    "cultural_exchange_intensity": 5, // scale 1-10
+    "political_leverage_gain": 5, // scale 1-10
+    "genetic_lineage_impact": 6, // scale 1-10
+    "inflation_rate_change": -10, // percentage change (deflation)
+    "taxation_effect": 6, // scale 1-10
+    "resource_depletion_rate": 2, // scale 1-10
+    "technological_innovation_factor": 4, // scale 1-10
+    "trade_agreement_influence": 3, // scale 1-10
+    "debt_transfer_type": "Sovereign Debt Increase",
+    "genetic_data_impact": 5, // scale 1-10
+    "economic_sanction_intensity": 3, // scale 1-10
+    "environmental_impact": 3, // scale 1-10
+    "population_migration_influence": 7, // scale 1-10
+    "regional_conflict_risk": 6, // scale 1-10
+    "global_power_shift": 4, // scale 1-10
+    "social_class_disparity": 9 // scale 1-10
+  },
+  {
+    "entity": "Post-WWII Economic Boom",
+    "wealth_transfer_type": "Government Spending and Industrial Growth",
+    "wealth_amount": 2000000000000, // in USD
+    "time_period": "1945 - 1970",
+    "source_sector": "Government Investment",
+    "destination_sector": "Infrastructure, Consumers",
+    "primary_commodity": "Infrastructure Projects, Consumer Goods",
+    "transaction_frequency": 10000000, // number of transactions
+    "wealth_transfer_direction": "Stimulus Injection",
+    "conflict_influence": 2, // scale 1-10
+    "military_expense_percentage": 8, // percentage of GDP
+    "cultural_exchange_intensity": 7, // scale 1-10
+    "political_leverage_gain": 9, // scale 1-10
+    "genetic_lineage_impact": 7, // scale 1-10
+    "inflation_rate_change": 5, // percentage change
+    "taxation_effect": 8, // scale 1-10
+    "resource_depletion_rate": 6, // scale 1-10
+    "technological_innovation_factor": 9, // scale 1-10
+    "trade_agreement_influence": 8, // scale 1-10
+    "debt_transfer_type": "Government Debt Increase",
+    "genetic_data_impact": 6, // scale 1-10
+    "economic_sanction_intensity": 2, // scale 1-10
+    "environmental_impact": 5, // scale 1-10
+    "population_migration_influence": 8, // scale 1-10
+    "regional_conflict_risk": 3, // scale 1-10
+    "global_power_shift": 9, // scale 1-10
+    "social_class_disparity": 5 // scale 1-10
+  },
+  {
+    "entity": "OPEC Oil Embargo",
+    "wealth_transfer_type": "Trade Embargo",
+    "wealth_amount": -500000000000, // in USD (economic impact)
+    "time_period": "1973 - 1974",
+    "source_sector": "Oil Producers (OPEC)",
+    "destination_sector": "Oil Importing Nations",
+    "primary_commodity": "Crude Oil",
+    "transaction_frequency": 0, // number of transactions halted
+    "wealth_transfer_direction": "Supply Restriction",
+    "conflict_influence": 6, // scale 1-10
+    "military_expense_percentage": 5, // percentage of GDP
+    "cultural_exchange_intensity": 4, // scale 1-10
+    "political_leverage_gain": 8, // scale 1-10
+    "genetic_lineage_impact": 4, // scale 1-10
+    "inflation_rate_change": 7, // percentage change
+    "taxation_effect": 6, // scale 1-10
+    "resource_depletion_rate": 5, // scale 1-10
+    "technological_innovation_factor": 6, // scale 1-10
+    "trade_agreement_influence": 7, // scale 1-10
+    "debt_transfer_type": "Trade Deficit",
+    "genetic_data_impact": 2, // scale 1-10
+    "economic_sanction_intensity": 8, // scale 1-10
+    "environmental_impact": 4, // scale 1-10
+    "population_migration_influence": 3, // scale 1-10
+    "regional_conflict_risk": 7, // scale 1-10
+    "global_power_shift": 6, // scale 1-10
+    "social_class_disparity": 8 // scale 1-10
+  },
+  {
+    "entity": "Global Financial Crisis",
+    "wealth_transfer_type": "Economic Recession",
+    "wealth_amount": -20000000000000, // in USD (global equity losses)
+    "time_period": "2007 - 2009",
+    "source_sector": "Financial Institutions",
+    "destination_sector": "Asset Devaluation",
+    "primary_commodity": "Mortgage-Backed Securities",
+    "transaction_frequency": 1000000, // number of affected transactions
+    "wealth_transfer_direction": "Wealth Destruction",
+    "conflict_influence": 5, // scale 1-10
+    "military_expense_percentage": 4, // percentage of GDP
+    "cultural_exchange_intensity": 5, // scale 1-10
+    "political_leverage_gain": 6, // scale 1-10
+    "genetic_lineage_impact": 7, // scale 1-10
+    "inflation_rate_change": -2, // percentage change (deflationary pressures)
+    "taxation_effect": 7, // scale 1-10
+    "resource_depletion_rate": 3, // scale 1-10
+    "technological_innovation_factor": 5, // scale 1-10
+    "trade_agreement_influence": 5, // scale 1-10
+    "debt_transfer_type": "Sovereign Debt Increase",
+    "genetic_data_impact": 4, // scale 1-10
+    "economic_sanction_intensity": 3, // scale 1-10
+    "environmental_impact": 4, // scale 1-10
+    "population_migration_influence": 6, // scale 1-10
+    "regional_conflict_risk": 5, // scale 1-10
+    "global_power_shift": 5, // scale 1-10
+    "social_class_disparity": 9 // scale 1-10
+  },
+  {
+    "entity": "Rise of China",
+    "wealth_transfer_type": "Economic Growth",
+    "wealth_amount": 14000000000000, // in USD (GDP growth)
+    "time_period": "1980 - Present",
+    "source_sector": "Agriculture and Rural Areas",
+    "destination_sector": "Industrial and Urban Areas",
+    "primary_commodity": "Manufactured Goods",
+    "transaction_frequency": 100000000, // number of transactions
+    "wealth_transfer_direction": "Domestic and Export Growth",
+    "conflict_influence": 6, // scale 1-10
+    "military_expense_percentage": 2, // percentage of GDP
+    "cultural_exchange_intensity": 7, // scale 1-10
+    "political_leverage_gain": 9, // scale 1-10
+    "genetic_lineage_impact": 5, // scale 1-10
+    "inflation_rate_change": 3, // percentage change
+    "taxation_effect": 6, // scale 1-10
+    "resource_depletion_rate": 8, // scale 1-10
+    "technological_innovation_factor": 9, // scale 1-10
+    "trade_agreement_influence": 8, // scale 1-10
+    "debt_transfer_type": "Corporate and National Debt",
+    "genetic_data_impact": 3, // scale 1-10
+    "economic_sanction_intensity": 5, // scale 1-10
+    "environmental_impact": 9, // scale 1-10
+    "population_migration_influence": 9, // scale 1-10
+    "regional_conflict_risk": 6, // scale 1-10
+    "global_power_shift": 9, // scale 1-10
+    "social_class_disparity": 8 // scale 1-10
+  },
+  {
+    "entity": "COVID-19 Pandemic",
+    "wealth_transfer_type": "Global Economic Disruption",
+    "wealth_amount": -10000000000000, // in USD (global GDP loss)
+    "time_period": "2020 - Present",
+    "source_sector": "Various Industries",
+    "destination_sector": "Healthcare, Technology Sectors",
+    "primary_commodity": "Health Services, Digital Services",
+    "transaction_frequency": 1000000000, // number of affected transactions
+    "wealth_transfer_direction": "Economic Contraction",
+    "conflict_influence": 7, // scale 1-10
+    "military_expense_percentage": 2, // percentage of GDP
+    "cultural_exchange_intensity": 6, // scale 1-10
+    "political_leverage_gain": 7, // scale 1-10
+    "genetic_lineage_impact": 4, // scale 1-10
+    "inflation_rate_change": 5, // percentage change
+    "taxation_effect": 6, // scale 1-10
+    "resource_depletion_rate": 4, // scale 1-10
+    "technological_innovation_factor": 8, // scale 1-10
+    "trade_agreement_influence": 5, // scale 1-10
+    "debt_transfer_type": "National Debt Increase",
+    "genetic_data_impact": 5, // scale 1-10
+    "economic_sanction_intensity": 3, // scale 1-10
+    "environmental_impact": 5, // scale 1-10
+    "population_migration_influence": 7, // scale 1-10
+    "regional_conflict_risk": 6, // scale 1-10
+    "global_power_shift": 6, // scale 1-10
+    "social_class_disparity": 9 // scale 1-10
+  }
+  {
+    "entity": "Silk Road Trade Network",
+    "wealth_transfer_type": "International Trade",
+    "wealth_amount": 10000000000, // in USD (estimated total trade value)
+    "time_period": "200 BCE - 1400 CE",
+    "source_sector": "Asian Producers",
+    "destination_sector": "European and Middle Eastern Markets",
+    "primary_commodity": "Silk, Spices, Precious Metals",
+    "transaction_frequency": 1000000, // number of transactions
+    "wealth_transfer_direction": "East to West",
+    "conflict_influence": 5, // scale 1-10
+    "military_expense_percentage": 5, // percentage of GDP
+    "cultural_exchange_intensity": 10, // scale 1-10
+    "political_leverage_gain": 7, // scale 1-10
+    "genetic_lineage_impact": 6, // scale 1-10
+    "inflation_rate_change": 2, // percentage change
+    "taxation_effect": 6, // scale 1-10
+    "resource_depletion_rate": 3, // scale 1-10
+    "technological_innovation_factor": 7, // scale 1-10
+    "trade_agreement_influence": 8, // scale 1-10
+    "debt_transfer_type": "Trade Credit",
+    "genetic_data_impact": 5, // scale 1-10
+    "economic_sanction_intensity": 2, // scale 1-10
+    "environmental_impact": 3, // scale 1-10
+    "population_migration_influence": 8, // scale 1-10
+    "regional_conflict_risk": 5, // scale 1-10
+    "global_power_shift": 6, // scale 1-10
+    "social_class_disparity": 6 // scale 1-10
+  },
+  {
+    "entity": "Industrial Revolution",
+    "wealth_transfer_type": "Technological Advancement",
+    "wealth_amount": 500000000000, // in USD (estimated economic growth)
+    "time_period": "1760 - 1840",
+    "source_sector": "Agrarian Economy",
+    "destination_sector": "Industrial Manufacturing",
+    "primary_commodity": "Textiles, Iron, Coal",
+    "transaction_frequency": 500000, // number of transactions
+    "wealth_transfer_direction": "Rural to Urban",
+    "conflict_influence": 4, // scale 1-10
+    "military_expense_percentage": 3, // percentage of GDP
+    "cultural_exchange_intensity": 7, // scale 1-10
+    "political_leverage_gain": 8, // scale 1-10
+    "genetic_lineage_impact": 5, // scale 1-10
+    "inflation_rate_change": 3, // percentage change
+    "taxation_effect": 7, // scale 1-10
+    "resource_depletion_rate": 8, // scale 1-10
+    "technological_innovation_factor": 10, // scale 1-10
+    "trade_agreement_influence": 6, // scale 1-10
+    "debt_transfer_type": "Industrial Investment",
+    "genetic_data_impact": 4, // scale 1-10
+    "economic_sanction_intensity": 2, // scale 1-10
+    "environmental_impact": 9, // scale 1-10
+    "population_migration_influence": 9, // scale 1-10
+    "regional_conflict_risk": 4, // scale 1-10
+    "global_power_shift": 7, // scale 1-10
+    "social_class_disparity": 8 // scale 1-10
+  },
+  {
+    "entity": "Great Depression",
+    "wealth_transfer_type": "Economic Collapse",
+    "wealth_amount": -1000000000000, // in USD (estimated loss)
+    "time_period": "1929 - 1939",
+    "source_sector": "Investors, Businesses",
+    "destination_sector": "Asset Devaluation",
+    "primary_commodity": "Stocks, Capital",
+    "transaction_frequency": 2000000, // number of failed transactions
+    "wealth_transfer_direction": "Wealth Destruction",
+    "conflict_influence": 7, // scale 1-10
+    "military_expense_percentage": 2, // percentage of GDP
+    "cultural_exchange_intensity": 5, // scale 1-10
+    "political_leverage_gain": 5, // scale 1-10
+    "genetic_lineage_impact": 6, // scale 1-10
+    "inflation_rate_change": -10, // percentage change (deflation)
+    "taxation_effect": 6, // scale 1-10
+    "resource_depletion_rate": 2, // scale 1-10
+    "technological_innovation_factor": 4, // scale 1-10
+    "trade_agreement_influence": 3, // scale 1-10
+    "debt_transfer_type": "Sovereign Debt Increase",
+    "genetic_data_impact": 5, // scale 1-10
+    "economic_sanction_intensity": 3, // scale 1-10
+    "environmental_impact": 3, // scale 1-10
+    "population_migration_influence": 7, // scale 1-10
+    "regional_conflict_risk": 6, // scale 1-10
+    "global_power_shift": 4, // scale 1-10
+    "social_class_disparity": 9 // scale 1-10
+  },
+  {
+    "entity": "Post-WWII Economic Boom",
+    "wealth_transfer_type": "Government Spending and Industrial Growth",
+    "wealth_amount": 2000000000000, // in USD
+    "time_period": "1945 - 1970",
+    "source_sector": "Government Investment",
+    "destination_sector": "Infrastructure, Consumers",
+    "primary_commodity": "Infrastructure Projects, Consumer Goods",
+    "transaction_frequency": 10000000, // number of transactions
+    "wealth_transfer_direction": "Stimulus Injection",
+    "conflict_influence": 2, // scale 1-10
+    "military_expense_percentage": 8, // percentage of GDP
+    "cultural_exchange_intensity": 7, // scale 1-10
+    "political_leverage_gain": 9, // scale 1-10
+    "genetic_lineage_impact": 7, // scale 1-10
+    "inflation_rate_change": 5, // percentage change
+    "taxation_effect": 8, // scale 1-10
+    "resource_depletion_rate": 6, // scale 1-10
+    "technological_innovation_factor": 9, // scale 1-10
+    "trade_agreement_influence": 8, // scale 1-10
+    "debt_transfer_type": "Government Debt Increase",
+    "genetic_data_impact": 6, // scale 1-10
+    "economic_sanction_intensity": 2, // scale 1-10
+    "environmental_impact": 5, // scale 1-10
+    "population_migration_influence": 8, // scale 1-10
+    "regional_conflict_risk": 3, // scale 1-10
+    "global_power_shift": 9, // scale 1-10
+    "social_class_disparity": 5 // scale 1-10
+  },
+  {
+    "entity": "OPEC Oil Embargo",
+    "wealth_transfer_type": "Trade Embargo",
+    "wealth_amount": -500000000000, // in USD (economic impact)
+    "time_period": "1973 - 1974",
+    "source_sector": "Oil Producers (OPEC)",
+    "destination_sector": "Oil Importing Nations",
+    "primary_commodity": "Crude Oil",
+    "transaction_frequency": 0, // number of transactions halted
+    "wealth_transfer_direction": "Supply Restriction",
+    "conflict_influence": 6, // scale 1-10
+    "military_expense_percentage": 5, // percentage of GDP
+    "cultural_exchange_intensity": 4, // scale 1-10
+    "political_leverage_gain": 8, // scale 1-10
+    "genetic_lineage_impact": 4, // scale 1-10
+    "inflation_rate_change": 7, // percentage change
+    "taxation_effect": 6, // scale 1-10
+    "resource_depletion_rate": 5, // scale 1-10
+    "technological_innovation_factor": 6, // scale 1-10
+    "trade_agreement_influence": 7, // scale 1-10
+    "debt_transfer_type": "Trade Deficit",
+    "genetic_data_impact": 2, // scale 1-10
+    "economic_sanction_intensity": 8, // scale 1-10
+    "environmental_impact": 4, // scale 1-10
+    "population_migration_influence": 3, // scale 1-10
+    "regional_conflict_risk": 7, // scale 1-10
+    "global_power_shift": 6, // scale 1-10
+    "social_class_disparity": 8 // scale 1-10
+  },
+  {
+    "entity": "Global Financial Crisis",
+    "wealth_transfer_type": "Economic Recession",
+    "wealth_amount": -20000000000000, // in USD (global equity losses)
+    "time_period": "2007 - 2009",
+    "source_sector": "Financial Institutions",
+    "destination_sector": "Asset Devaluation",
+    "primary_commodity": "Mortgage-Backed Securities",
+    "transaction_frequency": 1000000, // number of affected transactions
+    "wealth_transfer_direction": "Wealth Destruction",
+    "conflict_influence": 5, // scale 1-10
+    "military_expense_percentage": 4, // percentage of GDP
+    "cultural_exchange_intensity": 5, // scale 1-10
+    "political_leverage_gain": 6, // scale 1-10
+    "genetic_lineage_impact": 7, // scale 1-10
+    "inflation_rate_change": -2, // percentage change (deflationary pressures)
+    "taxation_effect": 7, // scale 1-10
+    "resource_depletion_rate": 3, // scale 1-10
+    "technological_innovation_factor": 5, // scale 1-10
+    "trade_agreement_influence": 5, // scale 1-10
+    "debt_transfer_type": "Sovereign Debt Increase",
+    "genetic_data_impact": 4, // scale 1-10
+    "economic_sanction_intensity": 3, // scale 1-10
+    "environmental_impact": 4, // scale 1-10
+    "population_migration_influence": 6, // scale 1-10
+    "regional_conflict_risk": 5, // scale 1-10
+    "global_power_shift": 5, // scale 1-10
+    "social_class_disparity": 9 // scale 1-10
+  },
+  {
+    "entity": "Rise of China",
+    "wealth_transfer_type": "Economic Growth",
+    "wealth_amount": 14000000000000, // in USD (GDP growth)
+    "time_period": "1980 - Present",
+    "source_sector": "Agriculture and Rural Areas",
+    "destination_sector": "Industrial and Urban Areas",
+    "primary_commodity": "Manufactured Goods",
+    "transaction_frequency": 100000000, // number of transactions
+    "wealth_transfer_direction": "Domestic and Export Growth",
+    "conflict_influence": 6, // scale 1-10
+    "military_expense_percentage": 2, // percentage of GDP
+    "cultural_exchange_intensity": 7, // scale 1-10
+    "political_leverage_gain": 9, // scale 1-10
+    "genetic_lineage_impact": 5, // scale 1-10
+    "inflation_rate_change": 3, // percentage change
+    "taxation_effect": 6, // scale 1-10
+    "resource_depletion_rate": 8, // scale 1-10
+    "technological_innovation_factor": 9, // scale 1-10
+    "trade_agreement_influence": 8, // scale 1-10
+    "debt_transfer_type": "Corporate and National Debt",
+    "genetic_data_impact": 3, // scale 1-10
+    "economic_sanction_intensity": 5, // scale 1-10
+    "environmental_impact": 9, // scale 1-10
+    "population_migration_influence": 9, // scale 1-10
+    "regional_conflict_risk": 6, // scale 1-10
+    "global_power_shift": 9, // scale 1-10
+    "social_class_disparity": 8 // scale 1-10
+  },
+  {
+    "entity": "COVID-19 Pandemic",
+    "wealth_transfer_type": "Global Economic Disruption",
+    "wealth_amount": -10000000000000, // in USD (global GDP loss)
+    "time_period": "2020 - Present",
+    "source_sector": "Various Industries",
+    "destination_sector": "Healthcare, Technology Sectors",
+    "primary_commodity": "Health Services, Digital Services",
+    "transaction_frequency": 1000000000, // number of affected transactions
+    "wealth_transfer_direction": "Economic Contraction",
+    "conflict_influence": 7, // scale 1-10
+    "military_expense_percentage": 2, // percentage of GDP
+    "cultural_exchange_intensity": 6, // scale 1-10
+    "political_leverage_gain": 7, // scale 1-10
+    "genetic_lineage_impact": 4, // scale 1-10
+    "inflation_rate_change": 5, // percentage change
+    "taxation_effect": 6, // scale 1-10
+    "resource_depletion_rate": 4, // scale 1-10
+    "technological_innovation_factor": 8, // scale 1-10
+    "trade_agreement_influence": 5, // scale 1-10
+    "debt_transfer_type": "National Debt Increase",
+    "genetic_data_impact": 5, // scale 1-10
+    "economic_sanction_intensity": 3, // scale 1-10
+    "environmental_impact": 5, // scale 1-10
+    "population_migration_influence": 7, // scale 1-10
+    "regional_conflict_risk": 6, // scale 1-10
+    "global_power_shift": 6, // scale 1-10
+    "social_class_disparity": 9 // scale 1-10
+  },
+  {
+    "entity": "Dot-com Bubble",
+    "wealth_transfer_type": "Market Speculation and Crash",
+    "wealth_amount": -5000000000000, // in USD (estimated loss)
+    "time_period": "1995 - 2001",
+    "source_sector": "Investors",
+    "destination_sector": "Technology Companies",
+    "primary_commodity": "Internet-based Stocks",
+    "transaction_frequency": 5000000, // number of transactions
+    "wealth_transfer_direction": "Investment Inflows and Crash",
+    "conflict_influence": 3, // scale 1-10
+    "military_expense_percentage": 3, // percentage of GDP
+    "cultural_exchange_intensity": 6, // scale 1-10
+    "political_leverage_gain": 4, // scale 1-10
+    "genetic_lineage_impact": 2, // scale 1-10
+    "inflation_rate_change": 1, // percentage change
+    "taxation_effect": 5, // scale 1-10
+    "resource_depletion_rate": 2, // scale 1-10
+    "technological_innovation_factor": 8, // scale 1-10
+    "trade_agreement_influence": 5, // scale 1-10
+    "debt_transfer_type": "Corporate Debt Increase",
+    "genetic_data_impact": 1, // scale 1-10
+    "economic_sanction_intensity": 1, // scale 1-10
+    "environmental_impact": 3, // scale 1-10
+    "population_migration_influence": 4, // scale 1-10
+    "regional_conflict_risk": 2, // scale 1-10
+    "global_power_shift": 4, // scale 1-10
+    "social_class_disparity": 7 // scale 1-10
+  },
+  {
+    "entity": "Bitcoin and Cryptocurrency Emergence",
+    "wealth_transfer_type": "Digital Currency Creation",
+    "wealth_amount": 1000000000000, // in USD (market capitalization)
+    "time_period": "2009 - Present",
+    "source_sector": "Traditional Finance",
+    "destination_sector": "Cryptocurrency Markets",
+    "primary_commodity": "Digital Assets",
+    "transaction_frequency": 100000000, // number of transactions
+    "wealth_transfer_direction": "Investment Inflows",
+    "conflict_influence": 2, // scale 1-10
+    "military_expense_percentage": 1, // percentage of GDP
+    "cultural_exchange_intensity": 7, // scale 1-10
+    "political_leverage_gain": 5, // scale 1-10
+    "genetic_lineage_impact": 3, // scale 1-10
+    "inflation_rate_change": 2, // percentage change
+    "taxation_effect": 4, // scale 1-10
+    "resource_depletion_rate": 5, // scale 1-10
+    "technological_innovation_factor": 9, // scale 1-10
+    "trade_agreement_influence": 4, // scale 1-10
+    "debt_transfer_type": "Personal Debt",
+    "genetic_data_impact": 2, // scale 1-10
+    "economic_sanction_intensity": 3, // scale 1-10
+    "environmental_impact": 6, // scale 1-10
+    "population_migration_influence": 2, // scale 1-10
+    "regional_conflict_risk": 2, // scale 1-10
+    "global_power_shift": 5, // scale 1-10
+    "social_class_disparity": 6 // scale 1-10
+  },
+  {
+    "entity": "Colonialism and Mercantilism",
+    "wealth_transfer_type": "Resource Extraction",
+    "wealth_amount": 10000000000000, // in USD (historical estimation)
+    "time_period": "1500 - 1900",
+    "source_sector": "Colonized Territories",
+    "destination_sector": "Colonial Powers",
+    "primary_commodity": "Gold, Silver, Spices, Raw Materials",
+    "transaction_frequency": 10000000, // number of shipments
+    "wealth_transfer_direction": "Resource Flow from Colonies to Metropole",
+    "conflict_influence": 9, // scale 1-10
+    "military_expense_percentage": 10, // percentage of GDP
+    "cultural_exchange_intensity": 8, // scale 1-10
+    "political_leverage_gain": 10, // scale 1-10
+    "genetic_lineage_impact": 7, // scale 1-10
+    "inflation_rate_change": 15, // percentage change (e.g., Spanish Price Revolution)
+    "taxation_effect": 9, // scale 1-10
+    "resource_depletion_rate": 9, // scale 1-10
+    "technological_innovation_factor": 8, // scale 1-10
+    "trade_agreement_influence": 7, // scale 1-10
+    "debt_transfer_type": "Colonial Debt",
+    "genetic_data_impact": 6, // scale 1-10
+    "economic_sanction_intensity": 7, // scale 1-10
+    "environmental_impact": 8, // scale 1-10
+    "population_migration_influence": 10, // scale 1-10
+    "regional_conflict_risk": 9, // scale 1-10
+    "global_power_shift": 10, // scale 1-10
+    "social_class_disparity": 10 // scale 1-10
+  },
+  {
+    "entity": "American Housing Bubble",
+    "wealth_transfer_type": "Asset Bubble and Crash",
+    "wealth_amount": -8000000000000, // in USD (estimated loss in home values)
+    "time_period": "2000 - 2008",
+    "source_sector": "Homeowners, Investors",
+    "destination_sector": "Financial Institutions",
+    "primary_commodity": "Real Estate",
+    "transaction_frequency": 2000000, // number of mortgages
+    "wealth_transfer_direction": "Wealth Destruction",
+    "conflict_influence": 4, // scale 1-10
+    "military_expense_percentage": 4, // percentage of GDP
+    "cultural_exchange_intensity": 5, // scale 1-10
+    "political_leverage_gain": 5, // scale 1-10
+    "genetic_lineage_impact": 5, // scale 1-10
+    "inflation_rate_change": -1, // percentage change
+    "taxation_effect": 6, // scale 1-10
+    "resource_depletion_rate": 2, // scale 1-10
+    "technological_innovation_factor": 4, // scale 1-10
+    "trade_agreement_influence": 5, // scale 1-10
+    "debt_transfer_type": "Mortgage Debt",
+    "genetic_data_impact": 3, // scale 1-10
+    "economic_sanction_intensity": 1, // scale 1-10
+    "environmental_impact": 3, // scale 1-10
+    "population_migration_influence": 6, // scale 1-10
+    "regional_conflict_risk": 3, // scale 1-10
+    "global_power_shift": 5, // scale 1-10
+    "social_class_disparity": 8 // scale 1-10
+  },
+  {
+    "entity": "European Colonial Slave Trade",
+    "wealth_transfer_type": "Forced Labor and Human Trafficking",
+    "wealth_amount": 1000000000000, // in USD (historical estimation)
+    "time_period": "1500 - 1800",
+    "source_sector": "African Societies",
+    "destination_sector": "European Colonies",
+    "primary_commodity": "Enslaved People",
+    "transaction_frequency": 12000000, // number of enslaved individuals transported
+    "wealth_transfer_direction": "Human Capital Extraction",
+    "conflict_influence": 10, // scale 1-10
+    "military_expense_percentage": 8, // percentage of GDP
+    "cultural_exchange_intensity": 7, // scale 1-10
+    "political_leverage_gain": 10, // scale 1-10
+    "genetic_lineage_impact": 8, // scale 1-10
+    "inflation_rate_change": 5, // percentage change
+    "taxation_effect": 7, // scale 1-10
+    "resource_depletion_rate": 6, // scale 1-10
+    "technological_innovation_factor": 5, // scale 1-10
+    "trade_agreement_influence": 6, // scale 1-10
+    "debt_transfer_type": "Government Bonds and Slave Trade Financing",
+    "genetic_data_impact": 9, // scale 1-10
+    "economic_sanction_intensity": 4, // scale 1-10
+    "environmental_impact": 7, // scale 1-10
+    "population_migration_influence": 10, // scale 1-10
+    "regional_conflict_risk": 9, // scale 1-10
+    "global_power_shift": 9, // scale 1-10
+    "social_class_disparity": 10 // scale 1-10
+  },
+  {
+    "entity": "Bretton Woods Agreement",
+    "wealth_transfer_type": "Establishment of Global Financial Systems",
+    "wealth_amount": 0, // N/A (system establishment)
+    "time_period": "1944",
+    "source_sector": "Allied Nations",
+    "destination_sector": "Global Economy",
+    "primary_commodity": "Monetary Policy Agreements",
+    "transaction_frequency": 1, // the agreement itself
+    "wealth_transfer_direction": "Economic Coordination",
+    "conflict_influence": 5, // scale 1-10
+    "military_expense_percentage": 10, // percentage of GDP (post-WWII context)
+    "cultural_exchange_intensity": 6, // scale 1-10
+    "political_leverage_gain": 9, // scale 1-10
+    "genetic_lineage_impact": 4, // scale 1-10
+    "inflation_rate_change": 0, // percentage change
+    "taxation_effect": 5, // scale 1-10
+    "resource_depletion_rate": 3, // scale 1-10
+    "technological_innovation_factor": 7, // scale 1-10
+    "trade_agreement_influence": 10, // scale 1-10
+    "debt_transfer_type": "International Monetary Agreements",
+    "genetic_data_impact": 2, // scale 1-10
+    "economic_sanction_intensity": 2, // scale 1-10
+    "environmental_impact": 2, // scale 1-10
+    "population_migration_influence": 4, // scale 1-10
+    "regional_conflict_risk": 3, // scale 1-10
+    "global_power_shift": 8, // scale 1-10
+    "social_class_disparity": 5 // scale 1-10
+  },
+  {
+    "entity": "European Union Formation",
+    "wealth_transfer_type": "Economic Integration",
+    "wealth_amount": 5000000000000, // in USD (combined GDP growth)
+    "time_period": "1993 - Present",
+    "source_sector": "Member States",
+    "destination_sector": "Unified European Market",
+    "primary_commodity": "Various Goods and Services",
+    "transaction_frequency": 100000000, // number of transactions
+    "wealth_transfer_direction": "Economic Integration",
+    "conflict_influence": 2, // scale 1-10
+    "military_expense_percentage": 1.3, // percentage of GDP
+    "cultural_exchange_intensity": 9, // scale 1-10
+    "political_leverage_gain": 8, // scale 1-10
+    "genetic_lineage_impact": 3, // scale 1-10
+    "inflation_rate_change": 2, // percentage change
+    "taxation_effect": 6, // scale 1-10
+    "resource_depletion_rate": 5, // scale 1-10
+    "technological_innovation_factor": 8, // scale 1-10
+    "trade_agreement_influence": 9, // scale 1-10
+    "debt_transfer_type": "Sovereign Debt Management",
+    "genetic_data_impact": 4, // scale 1-10
+    "economic_sanction_intensity": 3, // scale 1-10
+    "environmental_impact": 6, // scale 1-10
+    "population_migration_influence": 8, // scale 1-10
+    "regional_conflict_risk": 2, // scale 1-10
+    "global_power_shift": 7, // scale 1-10
+    "social_class_disparity": 6 // scale 1-10
+  }
+  {
+    "entity": "Silk Road Trade Network",
+    "wealth_transfer_type": "International Trade",
+    "wealth_amount": 10000000000, // in USD (estimated total trade value)
+    "time_period": "200 BCE - 1400 CE",
+    "source_sector": "Asian Producers",
+    "destination_sector": "European and Middle Eastern Markets",
+    "primary_commodity": "Silk, Spices, Precious Metals",
+    "transaction_frequency": 1000000, // number of transactions
+    "wealth_transfer_direction": "East to West",
+    "conflict_influence": 5, // scale 1-10
+    "military_expense_percentage": 5, // percentage of GDP
+    "cultural_exchange_intensity": 10, // scale 1-10
+    "political_leverage_gain": 7, // scale 1-10
+    "genetic_lineage_impact": 6, // scale 1-10
+    "inflation_rate_change": 2, // percentage change
+    "taxation_effect": 6, // scale 1-10
+    "resource_depletion_rate": 3, // scale 1-10
+    "technological_innovation_factor": 7, // scale 1-10
+    "trade_agreement_influence": 8, // scale 1-10
+    "debt_transfer_type": "Trade Credit",
+    "genetic_data_impact": 5, // scale 1-10
+    "economic_sanction_intensity": 2, // scale 1-10
+    "environmental_impact": 3, // scale 1-10
+    "population_migration_influence": 8, // scale 1-10
+    "regional_conflict_risk": 5, // scale 1-10
+    "global_power_shift": 6, // scale 1-10
+    "social_class_disparity": 6 // scale 1-10
+  },
+  {
+    "entity": "Industrial Revolution",
+    "wealth_transfer_type": "Technological Advancement",
+    "wealth_amount": 500000000000, // in USD (estimated economic growth)
+    "time_period": "1760 - 1840",
+    "source_sector": "Agrarian Economy",
+    "destination_sector": "Industrial Manufacturing",
+    "primary_commodity": "Textiles, Iron, Coal",
+    "transaction_frequency": 500000, // number of transactions
+    "wealth_transfer_direction": "Rural to Urban",
+    "conflict_influence": 4, // scale 1-10
+    "military_expense_percentage": 3, // percentage of GDP
+    "cultural_exchange_intensity": 7, // scale 1-10
+    "political_leverage_gain": 8, // scale 1-10
+    "genetic_lineage_impact": 5, // scale 1-10
+    "inflation_rate_change": 3, // percentage change
+    "taxation_effect": 7, // scale 1-10
+    "resource_depletion_rate": 8, // scale 1-10
+    "technological_innovation_factor": 10, // scale 1-10
+    "trade_agreement_influence": 6, // scale 1-10
+    "debt_transfer_type": "Industrial Investment",
+    "genetic_data_impact": 4, // scale 1-10
+    "economic_sanction_intensity": 2, // scale 1-10
+    "environmental_impact": 9, // scale 1-10
+    "population_migration_influence": 9, // scale 1-10
+    "regional_conflict_risk": 4, // scale 1-10
+    "global_power_shift": 7, // scale 1-10
+    "social_class_disparity": 8 // scale 1-10
+  },
+  {
+    "entity": "Great Depression",
+    "wealth_transfer_type": "Economic Collapse",
+    "wealth_amount": -1000000000000, // in USD (estimated loss)
+    "time_period": "1929 - 1939",
+    "source_sector": "Investors, Businesses",
+    "destination_sector": "Asset Devaluation",
+    "primary_commodity": "Stocks, Capital",
+    "transaction_frequency": 2000000, // number of failed transactions
+    "wealth_transfer_direction": "Wealth Destruction",
+    "conflict_influence": 7, // scale 1-10
+    "military_expense_percentage": 2, // percentage of GDP
+    "cultural_exchange_intensity": 5, // scale 1-10
+    "political_leverage_gain": 5, // scale 1-10
+    "genetic_lineage_impact": 6, // scale 1-10
+    "inflation_rate_change": -10, // percentage change (deflation)
+    "taxation_effect": 6, // scale 1-10
+    "resource_depletion_rate": 2, // scale 1-10
+    "technological_innovation_factor": 4, // scale 1-10
+    "trade_agreement_influence": 3, // scale 1-10
+    "debt_transfer_type": "Sovereign Debt Increase",
+    "genetic_data_impact": 5, // scale 1-10
+    "economic_sanction_intensity": 3, // scale 1-10
+    "environmental_impact": 3, // scale 1-10
+    "population_migration_influence": 7, // scale 1-10
+    "regional_conflict_risk": 6, // scale 1-10
+    "global_power_shift": 4, // scale 1-10
+    "social_class_disparity": 9 // scale 1-10
+  },
+  {
+    "entity": "Post-WWII Economic Boom",
+    "wealth_transfer_type": "Government Spending and Industrial Growth",
+    "wealth_amount": 2000000000000, // in USD
+    "time_period": "1945 - 1970",
+    "source_sector": "Government Investment",
+    "destination_sector": "Infrastructure, Consumers",
+    "primary_commodity": "Infrastructure Projects, Consumer Goods",
+    "transaction_frequency": 10000000, // number of transactions
+    "wealth_transfer_direction": "Stimulus Injection",
+    "conflict_influence": 2, // scale 1-10
+    "military_expense_percentage": 8, // percentage of GDP
+    "cultural_exchange_intensity": 7, // scale 1-10
+    "political_leverage_gain": 9, // scale 1-10
+    "genetic_lineage_impact": 7, // scale 1-10
+    "inflation_rate_change": 5, // percentage change
+    "taxation_effect": 8, // scale 1-10
+    "resource_depletion_rate": 6, // scale 1-10
+    "technological_innovation_factor": 9, // scale 1-10
+    "trade_agreement_influence": 8, // scale 1-10
+    "debt_transfer_type": "Government Debt Increase",
+    "genetic_data_impact": 6, // scale 1-10
+    "economic_sanction_intensity": 2, // scale 1-10
+    "environmental_impact": 5, // scale 1-10
+    "population_migration_influence": 8, // scale 1-10
+    "regional_conflict_risk": 3, // scale 1-10
+    "global_power_shift": 9, // scale 1-10
+    "social_class_disparity": 5 // scale 1-10
+  },
+  {
+    "entity": "OPEC Oil Embargo",
+    "wealth_transfer_type": "Trade Embargo",
+    "wealth_amount": -500000000000, // in USD (economic impact)
+    "time_period": "1973 - 1974",
+    "source_sector": "Oil Producers (OPEC)",
+    "destination_sector": "Oil Importing Nations",
+    "primary_commodity": "Crude Oil",
+    "transaction_frequency": 0, // number of transactions halted
+    "wealth_transfer_direction": "Supply Restriction",
+    "conflict_influence": 6, // scale 1-10
+    "military_expense_percentage": 5, // percentage of GDP
+    "cultural_exchange_intensity": 4, // scale 1-10
+    "political_leverage_gain": 8, // scale 1-10
+    "genetic_lineage_impact": 4, // scale 1-10
+    "inflation_rate_change": 7, // percentage change
+    "taxation_effect": 6, // scale 1-10
+    "resource_depletion_rate": 5, // scale 1-10
+    "technological_innovation_factor": 6, // scale 1-10
+    "trade_agreement_influence": 7, // scale 1-10
+    "debt_transfer_type": "Trade Deficit",
+    "genetic_data_impact": 2, // scale 1-10
+    "economic_sanction_intensity": 8, // scale 1-10
+    "environmental_impact": 4, // scale 1-10
+    "population_migration_influence": 3, // scale 1-10
+    "regional_conflict_risk": 7, // scale 1-10
+    "global_power_shift": 6, // scale 1-10
+    "social_class_disparity": 8 // scale 1-10
+  },
+  {
+    "entity": "Global Financial Crisis",
+    "wealth_transfer_type": "Economic Recession",
+    "wealth_amount": -20000000000000, // in USD (global equity losses)
+    "time_period": "2007 - 2009",
+    "source_sector": "Financial Institutions",
+    "destination_sector": "Asset Devaluation",
+    "primary_commodity": "Mortgage-Backed Securities",
+    "transaction_frequency": 1000000, // number of affected transactions
+    "wealth_transfer_direction": "Wealth Destruction",
+    "conflict_influence": 5, // scale 1-10
+    "military_expense_percentage": 4, // percentage of GDP
+    "cultural_exchange_intensity": 5, // scale 1-10
+    "political_leverage_gain": 6, // scale 1-10
+    "genetic_lineage_impact": 7, // scale 1-10
+    "inflation_rate_change": -2, // percentage change (deflationary pressures)
+    "taxation_effect": 7, // scale 1-10
+    "resource_depletion_rate": 3, // scale 1-10
+    "technological_innovation_factor": 5, // scale 1-10
+    "trade_agreement_influence": 5, // scale 1-10
+    "debt_transfer_type": "Sovereign Debt Increase",
+    "genetic_data_impact": 4, // scale 1-10
+    "economic_sanction_intensity": 3, // scale 1-10
+    "environmental_impact": 4, // scale 1-10
+    "population_migration_influence": 6, // scale 1-10
+    "regional_conflict_risk": 5, // scale 1-10
+    "global_power_shift": 5, // scale 1-10
+    "social_class_disparity": 9 // scale 1-10
+  },
+  {
+    "entity": "Rise of China",
+    "wealth_transfer_type": "Economic Growth",
+    "wealth_amount": 14000000000000, // in USD (GDP growth)
+    "time_period": "1980 - Present",
+    "source_sector": "Agriculture and Rural Areas",
+    "destination_sector": "Industrial and Urban Areas",
+    "primary_commodity": "Manufactured Goods",
+    "transaction_frequency": 100000000, // number of transactions
+    "wealth_transfer_direction": "Domestic and Export Growth",
+    "conflict_influence": 6, // scale 1-10
+    "military_expense_percentage": 2, // percentage of GDP
+    "cultural_exchange_intensity": 7, // scale 1-10
+    "political_leverage_gain": 9, // scale 1-10
+    "genetic_lineage_impact": 5, // scale 1-10
+    "inflation_rate_change": 3, // percentage change
+    "taxation_effect": 6, // scale 1-10
+    "resource_depletion_rate": 8, // scale 1-10
+    "technological_innovation_factor": 9, // scale 1-10
+    "trade_agreement_influence": 8, // scale 1-10
+    "debt_transfer_type": "Corporate and National Debt",
+    "genetic_data_impact": 3, // scale 1-10
+    "economic_sanction_intensity": 5, // scale 1-10
+    "environmental_impact": 9, // scale 1-10
+    "population_migration_influence": 9, // scale 1-10
+    "regional_conflict_risk": 6, // scale 1-10
+    "global_power_shift": 9, // scale 1-10
+    "social_class_disparity": 8 // scale 1-10
+  },
+  {
+    "entity": "COVID-19 Pandemic",
+    "wealth_transfer_type": "Global Economic Disruption",
+    "wealth_amount": -10000000000000, // in USD (global GDP loss)
+    "time_period": "2020 - Present",
+    "source_sector": "Various Industries",
+    "destination_sector": "Healthcare, Technology Sectors",
+    "primary_commodity": "Health Services, Digital Services",
+    "transaction_frequency": 1000000000, // number of affected transactions
+    "wealth_transfer_direction": "Economic Contraction",
+    "conflict_influence": 7, // scale 1-10
+    "military_expense_percentage": 2, // percentage of GDP
+    "cultural_exchange_intensity": 6, // scale 1-10
+    "political_leverage_gain": 7, // scale 1-10
+    "genetic_lineage_impact": 4, // scale 1-10
+    "inflation_rate_change": 5, // percentage change
+    "taxation_effect": 6, // scale 1-10
+    "resource_depletion_rate": 4, // scale 1-10
+    "technological_innovation_factor": 8, // scale 1-10
+    "trade_agreement_influence": 5, // scale 1-10
+    "debt_transfer_type": "National Debt Increase",
+    "genetic_data_impact": 5, // scale 1-10
+    "economic_sanction_intensity": 3, // scale 1-10
+    "environmental_impact": 5, // scale 1-10
+    "population_migration_influence": 7, // scale 1-10
+    "regional_conflict_risk": 6, // scale 1-10
+    "global_power_shift": 6, // scale 1-10
+    "social_class_disparity": 9 // scale 1-10
+  },
+  {
+    "entity": "Brexit",
+    "wealth_transfer_type": "Economic Realignment",
+    "wealth_amount": -200000000000, // in USD (estimated economic loss)
+    "time_period": "2016 - Present",
+    "source_sector": "European Union Membership",
+    "destination_sector": "United Kingdom Independence",
+    "primary_commodity": "Trade Agreements, Services",
+    "transaction_frequency": 5000000, // number of affected transactions
+    "wealth_transfer_direction": "Trade Barriers Increased",
+    "conflict_influence": 4, // scale 1-10
+    "military_expense_percentage": 2, // percentage of GDP
+    "cultural_exchange_intensity": 5, // scale 1-10
+    "political_leverage_gain": 6, // scale 1-10
+    "genetic_lineage_impact": 2, // scale 1-10
+    "inflation_rate_change": 1, // percentage change
+    "taxation_effect": 5, // scale 1-10
+    "resource_depletion_rate": 3, // scale 1-10
+    "technological_innovation_factor": 5, // scale 1-10
+    "trade_agreement_influence": 6, // scale 1-10
+    "debt_transfer_type": "National Debt Fluctuation",
+    "genetic_data_impact": 1, // scale 1-10
+    "economic_sanction_intensity": 2, // scale 1-10
+    "environmental_impact": 4, // scale 1-10
+    "population_migration_influence": 7, // scale 1-10
+    "regional_conflict_risk": 3, // scale 1-10
+    "global_power_shift": 5, // scale 1-10
+    "social_class_disparity": 7 // scale 1-10
+  },
+  {
+    "entity": "African Continental Free Trade Area (AfCFTA)",
+    "wealth_transfer_type": "Economic Integration",
+    "wealth_amount": 3000000000000, // in USD (combined GDP)
+    "time_period": "2018 - Present",
+    "source_sector": "Individual African Economies",
+    "destination_sector": "Unified African Market",
+    "primary_commodity": "Various Goods and Services",
+    "transaction_frequency": 10000000, // number of transactions
+    "wealth_transfer_direction": "Trade Liberalization",
+    "conflict_influence": 5, // scale 1-10
+    "military_expense_percentage": 2.5, // percentage of GDP
+    "cultural_exchange_intensity": 8, // scale 1-10
+    "political_leverage_gain": 7, // scale 1-10
+    "genetic_lineage_impact": 4, // scale 1-10
+    "inflation_rate_change": 2, // percentage change
+    "taxation_effect": 6, // scale 1-10
+    "resource_depletion_rate": 6, // scale 1-10
+    "technological_innovation_factor": 7, // scale 1-10
+    "trade_agreement_influence": 8, // scale 1-10
+    "debt_transfer_type": "Infrastructure Investment",
+    "genetic_data_impact": 3, // scale 1-10
+    "economic_sanction_intensity": 2, // scale 1-10
+    "environmental_impact": 6, // scale 1-10
+    "population_migration_influence": 8, // scale 1-10
+    "regional_conflict_risk": 5, // scale 1-10
+    "global_power_shift": 7, // scale 1-10
+    "social_class_disparity": 7 // scale 1-10
+  },
+  {
+    "entity": "Gold Rushes",
+    "wealth_transfer_type": "Resource Boom",
+    "wealth_amount": 10000000000, // in USD (historical estimation)
+    "time_period": "1848 - 1900",
+    "source_sector": "Mining Regions",
+    "destination_sector": "Global Markets",
+    "primary_commodity": "Gold",
+    "transaction_frequency": 100000, // number of transactions
+    "wealth_transfer_direction": "Extraction to Markets",
+    "conflict_influence": 6, // scale 1-10
+    "military_expense_percentage": 3, // percentage of GDP
+    "cultural_exchange_intensity": 7, // scale 1-10
+    "political_leverage_gain": 5, // scale 1-10
+    "genetic_lineage_impact": 5, // scale 1-10
+    "inflation_rate_change": 4, // percentage change
+    "taxation_effect": 5, // scale 1-10
+    "resource_depletion_rate": 7, // scale 1-10
+    "technological_innovation_factor": 6, // scale 1-10
+    "trade_agreement_influence": 4, // scale 1-10
+    "debt_transfer_type": "Investment Capital",
+    "genetic_data_impact": 4, // scale 1-10
+    "economic_sanction_intensity": 2, // scale 1-10
+    "environmental_impact": 8, // scale 1-10
+    "population_migration_influence": 9, // scale 1-10
+    "regional_conflict_risk": 7, // scale 1-10
+    "global_power_shift": 5, // scale 1-10
+    "social_class_disparity": 8 // scale 1-10
+  },
+  {
+    "entity": "Belt and Road Initiative",
+    "wealth_transfer_type": "Infrastructure Investment",
+    "wealth_amount": 1000000000000, // in USD (projected investment)
+    "time_period": "2013 - Present",
+    "source_sector": "Chinese Government and Companies",
+    "destination_sector": "Participating Countries",
+    "primary_commodity": "Infrastructure Projects",
+    "transaction_frequency": 1000, // number of major projects
+    "wealth_transfer_direction": "Investment Outflows",
+    "conflict_influence": 6, // scale 1-10
+    "military_expense_percentage": 1.9, // percentage of GDP
+    "cultural_exchange_intensity": 7, // scale 1-10
+    "political_leverage_gain": 9, // scale 1-10
+    "genetic_lineage_impact": 2, // scale 1-10
+    "inflation_rate_change": 2, // percentage change
+    "taxation_effect": 4, // scale 1-10
+    "resource_depletion_rate": 5, // scale 1-10
+    "technological_innovation_factor": 8, // scale 1-10
+    "trade_agreement_influence": 9, // scale 1-10
+    "debt_transfer_type": "Bilateral Loans",
+    "genetic_data_impact": 1, // scale 1-10
+    "economic_sanction_intensity": 3, // scale 1-10
+    "environmental_impact": 7, // scale 1-10
+    "population_migration_influence": 5, // scale 1-10
+    "regional_conflict_risk": 6, // scale 1-10
+    "global_power_shift": 8, // scale 1-10
+    "social_class_disparity": 7 // scale 1-10
+  },
+  {
+    "entity": "Formation of WTO",
+    "wealth_transfer_type": "Global Trade Liberalization",
+    "wealth_amount": 0, // N/A (institution establishment)
+    "time_period": "1995",
+    "source_sector": "Member Nations",
+    "destination_sector": "Global Economy",
+    "primary_commodity": "Trade Agreements",
+    "transaction_frequency": 1, // the agreement itself
+    "wealth_transfer_direction": "Economic Coordination",
+    "conflict_influence": 3, // scale 1-10
+    "military_expense_percentage": 2.5, // percentage of GDP
+    "cultural_exchange_intensity": 8, // scale 1-10
+    "political_leverage_gain": 8, // scale 1-10
+    "genetic_lineage_impact": 2, // scale 1-10
+    "inflation_rate_change": 1, // percentage change
+    "taxation_effect": 5, // scale 1-10
+    "resource_depletion_rate": 4, // scale 1-10
+    "technological_innovation_factor": 7, // scale 1-10
+    "trade_agreement_influence": 10, // scale 1-10
+    "debt_transfer_type": "Trade Facilitation",
+    "genetic_data_impact": 1, // scale 1-10
+    "economic_sanction_intensity": 4, // scale 1-10
+    "environmental_impact": 5, // scale 1-10
+    "population_migration_influence": 6, // scale 1-10
+    "regional_conflict_risk": 3, // scale 1-10
+    "global_power_shift": 7, // scale 1-10
+    "social_class_disparity": 6 // scale 1-10
+  }
+]
