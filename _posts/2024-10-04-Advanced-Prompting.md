@@ -1,7 +1,7 @@
 ---
 layout: home
 title:  "Advanced Prompting"
-date:   2024-09-25 07:40:44 -0500
+date:   2024-10-04 07:40:44 -0500
 ---
 **Exploring the Practical Applications of Advanced Prompting Techniques in Data Analysis**
 

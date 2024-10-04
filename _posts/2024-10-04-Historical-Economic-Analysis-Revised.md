@@ -1,7 +1,7 @@
 ---
 layout: home
 title:  "Historical Economic Analysis Revised"
-date:   2024-09-25 07:40:44 -0500
+date:   2024-10-04 07:40:44 -0500
 ---
 **Building an Enhanced Insight Journal with Historical Economic Analysis**
 
